@@ -1,6 +1,6 @@
 import app from './src/app.js';
 import { sequelize, testConnection } from './src/config/database.js';
-import Product from './src/models/product.js'; 
+import {Product, PedidoProducto, ProductoAlmacen, Proveedor, ProveedorProducto, Pedido, Cliente, Categoria, Almacen} from './src/models/index.js'; 
 
 const startServer = async () => {
   try {

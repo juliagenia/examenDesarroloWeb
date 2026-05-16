@@ -1,12 +1,12 @@
-import {Almacen} from "./almacen";
-import {Categoria} from "./categoria";
-import {Cliente} from "./cliente";
-import {Pedido} from "./pedido";
-import {PedidoProducto} from "./pedidoProducto";
-import {Product} from "./product";
-import {ProductoAlmacen} from "./productoAlmacen";
-import {Proveedor} from "./proveedor";
-import {ProveedorProducto} from "./proveedorProducto";
+import Almacen from "./almacen.js";
+import Categoria from "./categoria.js";
+import Cliente from "./cliente.js";
+import Pedido from "./pedido.js";
+import PedidoProducto from "./pedidoProducto.js";
+import Product from "./product.js";
+import ProductoAlmacen from "./productoAlmacen.js";
+import Proveedor from "./proveedor.js";
+import ProveedorProducto from "./proveedorProducto.js";
 export {
     Almacen,
     Categoria,
