@@ -10,8 +10,10 @@ import proveedorProductoRoutes from "./proveedorProductoRoutes.js";
 import pedidoProductoRoutes from "./pedidoProductoRoutes.js";
 import productoAlmacenRoutes from "./productoAlmacenRoutes.js";
 
+// 1. Definimos la constante como 'router' (convención común)
 const router = Router();
 
+// 2. Usamos 'router' en lugar de 'routes'
 router.use("/api/products", productRoutes);
 router.use("/api/categorias", categoriaRoutes);
 router.use("/api/proveedores", proveedorRoutes);
@@ -22,6 +24,5 @@ router.use("/api/proveedor-productos", proveedorProductoRoutes);
 router.use("/api/pedido-productos", pedidoProductoRoutes);
 router.use("/api/producto-almacenes", productoAlmacenRoutes);
 
-export default router;
-
-
+// 3. Exportamos 'router'
+export { router };

@@ -24,4 +24,4 @@ const Proveedor = sequelize.define("Proveedor", {
   timestamps: true, // crea createdAt y updatedAt
 });
 
-export default Proveedor;
+export  default Proveedor;
